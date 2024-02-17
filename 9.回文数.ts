@@ -6,18 +6,17 @@
 
 // @lc code=start
 function isPalindrome(x: number): boolean {
-    const str = x.toString();
-    let left = 0;
-    let right = str.length - 1;
-    // 从两端向中间遍历，判断是否相等，不相等则返回false
-    while (left < right) {
-        if (str[left] !== str[right]) {
-            return false;
-        }
-        left++;
-        right--;
+  const str = x.toString();
+  let left = 0;
+  let right = str.length - 1;
+  // 从两端向中间遍历，判断是否相等，不相等则返回false
+  while (left < right) {
+    if (str[left] !== str[right]) {
+      return false;
     }
-    return true;
-};
+    left++;
+    right--;
+  }
+  return true;
+}
 // @lc code=end
-

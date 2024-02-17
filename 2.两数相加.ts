@@ -24,7 +24,7 @@ function addTwoNumbers(
   l2: ListNode | null
   // @ts-ignore
 ): ListNode | null {
-    // @ts-ignore
+  // @ts-ignore
   let result: ListNode | null = null;
   // @ts-ignore
   let currentNode: ListNode | null = null;
